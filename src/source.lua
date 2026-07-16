@@ -138,12 +138,4 @@ function env:GrabAllAccounts()
     return accountsList
 end
 
-env:BuildEnv("testing101", false)
-
-env:CheckEnv("blahblah")
-env:CheckEnv("testing101")
-
-env:DeleteEnv("testing101")
-env:DeleteEnv("blahblah")
-
 return env
